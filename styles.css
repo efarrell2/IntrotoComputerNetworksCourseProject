@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif, Tahoma;
+    /* background-color: #f2f2f2; */
+}
+
+body{
+    background: lightgray;
+}
+
+header{
+    background: lightblue;
+}
+h1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 40px;
+    padding-top: 15px;
+}
+
+h2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.gobutton{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: 30%;
+    margin-left: 30%;
+
+}
+
+.gobutton p{
+    font-size: 24px;
+}
+
+.gobutton button{
+    width: 50px;
+    height: 25px;
+    font-size: 17px;
+}
+
+.stats{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* visibility: hidden; */
+}
+
+/* .currenttemp, .currenthumidity, .currentwind{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.currenttemp p, .currenthumidity p, .currentwind p{
+    padding-right: 5px;
+} */
+
+.charts{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 30px;
+    visibility: hidden;
+}
+
+canvas, label, .temperatures, .precipitation, .windspeed{
+    background: #fff;
+}
+
+.temperatures, .precipitation, .windspeed{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+}
