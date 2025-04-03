@@ -70,6 +70,8 @@
                         console.error("Error fetching weather data:", error);
                         document.getElementById("weatherData").innerText = "Failed to load weather data.";
                     });
+                    label.style.visibility = "visibile";
+                    canvas.style.visibility = "visible";
             });
 
         // Load the saved URL when the page refreshes
